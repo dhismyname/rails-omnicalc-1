@@ -1,0 +1,17 @@
+<body>
+  <h1>Calculate square root</h1>
+  <form action="/square_results" method="post">
+    <div>
+      <label for="user_number">Enter a number</label>
+    </div>
+    <div>
+      <!-- Change the input name to "users_number" -->
+      <input type="text" name="users_number" id="user_number" placeholder="What number do you want to take the square root of?">
+
+    </div>
+    <button type="submit">Calculate square root</button>
+
+  </form>
+  <%= yield %>
+</body>
+</html>
